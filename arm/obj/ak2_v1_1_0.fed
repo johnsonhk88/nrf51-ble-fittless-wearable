@@ -1,0 +1,137 @@
+;#<FEEDBACK># ARM Linker, 5050106: Last Updated: Mon Jul 18 23:56:39 2016
+;VERSION 0.2
+;FILE adc_apps.o
+__asm___10_adc_apps_c____REV16 <= USED 0
+__asm___10_adc_apps_c____REVSH <= USED 0
+__asm___10_adc_apps_c__nrf_delay_us <= USED 0
+;FILE adc_heart_rate.o
+__asm___16_adc_heart_rate_c_HRM_Run____REV16 <= USED 0
+__asm___16_adc_heart_rate_c_HRM_Run____REVSH <= USED 0
+__asm___16_adc_heart_rate_c_HRM_Run__nrf_delay_us <= USED 0
+adc_Heart_read <= USED 0
+;FILE app_button.o
+__asm___12_app_button_c_bd9cca92____REV16 <= USED 0
+__asm___12_app_button_c_bd9cca92____REVSH <= USED 0
+app_button_disable <= USED 0
+app_button_enable <= USED 0
+app_button_init <= USED 0
+app_button_is_pushed <= USED 0
+;FILE app_gpiote.o
+__asm___12_app_gpiote_c_3bb2fe7b____REV16 <= USED 0
+__asm___12_app_gpiote_c_3bb2fe7b____REVSH <= USED 0
+app_gpiote_init <= USED 0
+app_gpiote_pins_state_get <= USED 0
+app_gpiote_user_disable <= USED 0
+app_gpiote_user_enable <= USED 0
+app_gpiote_user_register <= USED 0
+;FILE app_timer.o
+__asm___11_app_timer_c_cd27f9c3____REV16 <= USED 0
+__asm___11_app_timer_c_cd27f9c3____REVSH <= USED 0
+app_timer_cnt_diff_compute <= USED 0
+app_timer_cnt_get <= USED 0
+app_timer_stop_all <= USED 0
+;FILE arm_startup_nrf51.o
+;FILE ble_advdata.o
+__asm___13_ble_advdata_c_cb25090c____REV16 <= USED 0
+__asm___13_ble_advdata_c_cb25090c____REVSH <= USED 0
+;FILE ble_apps_uart.o
+__asm___15_ble_apps_uart_c_e10b1b08____REV16 <= USED 0
+__asm___15_ble_apps_uart_c_e10b1b08____REVSH <= USED 0
+__asm___15_ble_apps_uart_c_e10b1b08__nrf_delay_us <= USED 0
+;FILE ble_conn_params.o
+__asm___17_ble_conn_params_c_2dcac06e____REV16 <= USED 0
+__asm___17_ble_conn_params_c_2dcac06e____REVSH <= USED 0
+ble_conn_params_change_conn_params <= USED 0
+ble_conn_params_stop <= USED 0
+;FILE ble_flash.o
+__asm___11_ble_flash_c_0294ac3c____REV16 <= USED 0
+__asm___11_ble_flash_c_0294ac3c____REVSH <= USED 0
+ble_flash_block_write <= USED 0
+ble_flash_crc16_compute <= USED 0
+ble_flash_on_radio_active_evt <= USED 0
+ble_flash_page_addr <= USED 0
+ble_flash_page_erase <= USED 0
+ble_flash_page_read <= USED 0
+ble_flash_page_write <= USED 0
+ble_flash_word_write <= USED 0
+;FILE ble_nus.o
+__asm___9_ble_nus_c_5b06b83c____REV16 <= USED 0
+__asm___9_ble_nus_c_5b06b83c____REVSH <= USED 0
+;FILE ble_proximity.o
+__asm___15_ble_proximity_c____REV16 <= USED 0
+__asm___15_ble_proximity_c____REVSH <= USED 0
+__asm___15_ble_proximity_c__nrf_delay_us <= USED 0
+;FILE ble_srv_common.o
+__asm___16_ble_srv_common_c_d5082fca____REV16 <= USED 0
+__asm___16_ble_srv_common_c_d5082fca____REVSH <= USED 0
+ble_srv_ascii_to_utf8 <= USED 0
+ble_srv_report_ref_encode <= USED 0
+;FILE key.o
+__asm___5_key_c____REV16 <= USED 0
+__asm___5_key_c____REVSH <= USED 0
+__asm___5_key_c__nrf_delay_us <= USED 0
+;FILE led.o
+LED_Status_Out <= USED 0
+LED_init <= USED 0
+__asm___5_led_c_LED_init____REV16 <= USED 0
+__asm___5_led_c_LED_init____REVSH <= USED 0
+__asm___5_led_c_LED_init__nrf_delay_us <= USED 0
+;FILE main.o
+__asm___6_main_c_113006bf____REV16 <= USED 0
+__asm___6_main_c_113006bf____REVSH <= USED 0
+__asm___6_main_c_113006bf__nrf_delay_us <= USED 0
+;FILE nrf_delay.o
+__asm___11_nrf_delay_c_532987f3____REV16 <= USED 0
+__asm___11_nrf_delay_c_532987f3____REVSH <= USED 0
+;FILE oled_096.o
+OLED_Display_Off <= USED 0
+OLED_Display_On <= USED 0
+OLED_Fill <= USED 0
+OLED_ShowNum <= USED 0
+__asm___10_oled_096_c_d8b4a4da____REV16 <= USED 0
+__asm___10_oled_096_c_d8b4a4da____REVSH <= USED 0
+__asm___10_oled_096_c_d8b4a4da__nrf_delay_us <= USED 0
+oled_pow <= USED 0
+;FILE retarget.o
+_sys_exit <= USED 0
+_ttywrch <= USED 0
+ferror <= USED 0
+fgetc <= USED 0
+;FILE rtc.o
+RTC_setDay <= USED 0
+RTC_setHour <= USED 0
+RTC_setMin <= USED 0
+RTC_setMonth <= USED 0
+RTC_setSecond <= USED 0
+RTC_setYear <= USED 0
+__asm___5_rtc_c_d905758e____REV16 <= USED 0
+__asm___5_rtc_c_d905758e____REVSH <= USED 0
+__asm___5_rtc_c_d905758e__nrf_delay_us <= USED 0
+;FILE simple_uart.o
+__asm___13_simple_uart_c_5dda6715____REV16 <= USED 0
+__asm___13_simple_uart_c_5dda6715____REVSH <= USED 0
+__asm___13_simple_uart_c_5dda6715__nrf_delay_us <= USED 0
+simple_uart_get <= USED 0
+simple_uart_get_with_timeout <= USED 0
+simple_uart_putstring <= USED 0
+;FILE softdevice_handler.o
+__asm___20_softdevice_handler_c_370b0038____REV16 <= USED 0
+__asm___20_softdevice_handler_c_370b0038____REVSH <= USED 0
+softdevice_handler_sd_disable <= USED 0
+softdevice_sys_evt_handler_set <= USED 0
+;FILE spi_master.o
+__asm___12_spi_master_c_6b526d4d____REV16 <= USED 0
+__asm___12_spi_master_c_6b526d4d____REVSH <= USED 0
+__asm___12_spi_master_c_6b526d4d__nrf_delay_us <= USED 0
+;FILE system_nrf51.o
+SystemCoreClockUpdate <= USED 0
+__asm___14_system_nrf51_c_5d646a67____REV16 <= USED 0
+__asm___14_system_nrf51_c_5d646a67____REVSH <= USED 0
+;FILE timer.o
+__asm___7_timer_c_0df8af1c____REV16 <= USED 0
+__asm___7_timer_c_0df8af1c____REVSH <= USED 0
+;FILE uart.o
+Convert_32bit_to_Hex_ASCII <= USED 0
+__asm___6_uart_c_cr____REV16 <= USED 0
+__asm___6_uart_c_cr____REVSH <= USED 0
+__asm___6_uart_c_cr__nrf_delay_us <= USED 0

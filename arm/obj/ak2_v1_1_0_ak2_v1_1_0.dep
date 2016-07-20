@@ -1,0 +1,937 @@
+Dependencies for Project 'ak2_v1_1_0', Target 'ak2_v1_1_0': (DO NOT MODIFY !)
+F (..\Source\templates\system_nrf51.c)(0x52B2542A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\system_nrf51.o --list_dir ".\\list\\" --list --omf_browse .\obj\system_nrf51.crf --depend .\obj\system_nrf51.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+F (..\Source\templates\arm\arm_startup_nrf51.s)(0x52B2542A)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "NRF51 SETA 1"--list .\list\arm_startup_nrf51.lst --xref -o .\obj\arm_startup_nrf51.o --depend .\obj\arm_startup_nrf51.d)
+F (..\Source\ble\ble_services\ble_srv_common.c)(0x52B407EA)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\ble_srv_common.o --list_dir ".\\list\\" --list --omf_browse .\obj\ble_srv_common.crf --depend .\obj\ble_srv_common.d)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\nordic_common.h)(0x52B40804)
+F (..\user\ble_nus.c)(0x52B40868)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\ble_nus.o --list_dir ".\\list\\" --list --omf_browse .\obj\ble_nus.crf --depend .\obj\ble_nus.d)
+I (..\user\ble_nus.h)(0x52B40868)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+F (..\Source\ble\ble_advdata.c)(0x52B407EC)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\ble_advdata.o --list_dir ".\\list\\" --list --omf_browse .\obj\ble_advdata.crf --depend .\obj\ble_advdata.d)
+I (..\Include\ble\ble_advdata.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+F (..\Source\ble\ble_conn_params.c)(0x52B407D2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\ble_conn_params.o --list_dir ".\\list\\" --list --omf_browse .\obj\ble_conn_params.crf --depend .\obj\ble_conn_params.d)
+I (..\Include\ble\ble_conn_params.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\s110\ble_hci.h)(0x528027A2)
+I (..\Include\app_common\app_timer.h)(0x52B407FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+F (..\Source\ble\ble_flash.c)(0x52B407F0)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\ble_flash.o --list_dir ".\\list\\" --list --omf_browse .\obj\ble_flash.crf --depend .\obj\ble_flash.d)
+I (..\Include\ble\ble_flash.h)(0x52B40800)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\s110\nrf_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\s110\nrf_error_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+F (..\Source\sd_common\softdevice_handler.c)(0x52B407FC)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\softdevice_handler.o --list_dir ".\\list\\" --list --omf_browse .\obj\softdevice_handler.crf --depend .\obj\softdevice_handler.d)
+I (..\Include\sd_common\softdevice_handler.h)(0x52B40804)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\Include\s110\nrf_sdm.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\s110\nrf_soc.h)(0x528027A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\s110\nrf_error_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\nrf_error_sdm.h)(0x528027A2)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\sd_common\ble_stack_handler_types.h)(0x52B40804)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\sd_common\ant_stack_handler_types.h)(0x52B40804)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\nrf_assert.h)(0x52B40800)
+F (..\Source\nrf_delay\nrf_delay.c)(0x52B407F2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\nrf_delay.o --list_dir ".\\list\\" --list --omf_browse .\obj\nrf_delay.crf --depend .\obj\nrf_delay.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\nrf_delay.h)(0x52B40800)
+F (..\Source\simple_uart\simple_uart.c)(0x573AF786)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\simple_uart.o --list_dir ".\\list\\" --list --omf_browse .\obj\simple_uart.crf --depend .\obj\simple_uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\simple_uart.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\Include\nrf_delay.h)(0x52B40800)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+F (..\Source\app_common\app_timer.c)(0x573AEA35)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\app_timer.o --list_dir ".\\list\\" --list --omf_browse .\obj\app_timer.crf --depend .\obj\app_timer.d)
+I (..\Include\app_common\app_timer.h)(0x52B407FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\s110\nrf_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\nrf_error_soc.h)(0x528027A2)
+I (..\Include\nrf_delay.h)(0x52B40800)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+I (..\Include\boards.h)(0x52FCD780)
+I (..\Include\boards/ak2.h)(0x573AF708)
+F (..\Source\app_common\app_button.c)(0x52B407F2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\app_button.o --list_dir ".\\list\\" --list --omf_browse .\obj\app_button.crf --depend .\obj\app_button.d)
+I (..\Include\app_common\app_button.h)(0x52B407FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (..\Include\app_common\app_timer.h)(0x52B407FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\Source\app_common\app_gpiote.c)(0x52B407F8)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\app_gpiote.o --list_dir ".\\list\\" --list --omf_browse .\obj\app_gpiote.crf --depend .\obj\app_gpiote.d)
+I (..\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+F (..\user\main.c)(0x573BE87D)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\main.o --list_dir ".\\list\\" --list --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Include\nrf_delay.h)(0x52B40800)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+I (..\Include\boards.h)(0x52FCD780)
+I (..\Include\boards/ak2.h)(0x573AF708)
+I (..\user\system.h)(0x573BEC37)
+I (..\Include\simple_uart.h)(0x52B40802)
+I (..\user\ble_apps_uart.h)(0x57485F12)
+I (..\user\ble_nus.h)(0x52B40868)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\user\rtc.h)(0x573AFC72)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\s110\nrf_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_error_soc.h)(0x528027A2)
+I (..\Include\s110\ble_hci.h)(0x528027A2)
+I (..\Include\ble\ble_advdata.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\ble\ble_services\ble_tps.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_lls.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_bas.h)(0x52B40800)
+I (..\Include\ble\ble_conn_params.h)(0x52B40802)
+I (..\Include\ble\ble_sensorsim.h)(0x52B40802)
+I (..\Include\app_common\app_timer.h)(0x52B407FE)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (..\Include\ble\ble_bondmngr.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias_c.h)(0x52B40800)
+I (..\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (..\Include\app_common\app_button.h)(0x52B407FE)
+I (..\Include\ble\ble_radio_notification.h)(0x52B40802)
+I (..\Include\ble\ble_flash.h)(0x52B40800)
+I (..\Include\ble\ble_debug_assert_handler.h)(0x52B40802)
+I (..\user\oled_096.h)(0x530CAD48)
+F (..\user\adc_apps.c)(0x5733385E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\adc_apps.o --list_dir ".\\list\\" --list --omf_browse .\obj\adc_apps.crf --depend .\obj\adc_apps.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\nrf_delay.h)(0x52B40800)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+I (..\Include\boards.h)(0x52FCD780)
+I (..\Include\boards/ak2.h)(0x573AF708)
+I (..\user\system.h)(0x573BEC37)
+I (..\Include\simple_uart.h)(0x52B40802)
+I (..\user\ble_apps_uart.h)(0x57485F12)
+I (..\user\ble_nus.h)(0x52B40868)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\user\rtc.h)(0x573AFC72)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\s110\nrf_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_error_soc.h)(0x528027A2)
+I (..\Include\s110\ble_hci.h)(0x528027A2)
+I (..\Include\ble\ble_advdata.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\ble\ble_services\ble_tps.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_lls.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_bas.h)(0x52B40800)
+I (..\Include\ble\ble_conn_params.h)(0x52B40802)
+I (..\Include\ble\ble_sensorsim.h)(0x52B40802)
+I (..\Include\app_common\app_timer.h)(0x52B407FE)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (..\Include\ble\ble_bondmngr.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias_c.h)(0x52B40800)
+I (..\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (..\Include\app_common\app_button.h)(0x52B407FE)
+I (..\Include\ble\ble_radio_notification.h)(0x52B40802)
+I (..\Include\ble\ble_flash.h)(0x52B40800)
+I (..\Include\ble\ble_debug_assert_handler.h)(0x52B40802)
+I (..\user\oled_096.h)(0x530CAD48)
+F (..\user\ble_proximity.c)(0x573B1703)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\ble_proximity.o --list_dir ".\\list\\" --list --omf_browse .\obj\ble_proximity.crf --depend .\obj\ble_proximity.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\nrf_delay.h)(0x52B40800)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+I (..\Include\boards.h)(0x52FCD780)
+I (..\Include\boards/ak2.h)(0x573AF708)
+I (..\user\system.h)(0x573BEC37)
+I (..\Include\simple_uart.h)(0x52B40802)
+I (..\user\ble_apps_uart.h)(0x57485F12)
+I (..\user\ble_nus.h)(0x52B40868)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\user\rtc.h)(0x573AFC72)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\s110\nrf_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_error_soc.h)(0x528027A2)
+I (..\Include\s110\ble_hci.h)(0x528027A2)
+I (..\Include\ble\ble_advdata.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\ble\ble_services\ble_tps.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_lls.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_bas.h)(0x52B40800)
+I (..\Include\ble\ble_conn_params.h)(0x52B40802)
+I (..\Include\ble\ble_sensorsim.h)(0x52B40802)
+I (..\Include\app_common\app_timer.h)(0x52B407FE)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (..\Include\ble\ble_bondmngr.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias_c.h)(0x52B40800)
+I (..\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (..\Include\app_common\app_button.h)(0x52B407FE)
+I (..\Include\ble\ble_radio_notification.h)(0x52B40802)
+I (..\Include\ble\ble_flash.h)(0x52B40800)
+I (..\Include\ble\ble_debug_assert_handler.h)(0x52B40802)
+I (..\user\oled_096.h)(0x530CAD48)
+F (..\user\ble_apps_uart.c)(0x573BE0A8)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\ble_apps_uart.o --list_dir ".\\list\\" --list --omf_browse .\obj\ble_apps_uart.crf --depend .\obj\ble_apps_uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Include\nrf_delay.h)(0x52B40800)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+I (..\user\system.h)(0x573BEC37)
+I (..\Include\simple_uart.h)(0x52B40802)
+I (..\user\ble_apps_uart.h)(0x57485F12)
+I (..\user\ble_nus.h)(0x52B40868)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\user\rtc.h)(0x573AFC72)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\s110\nrf_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_error_soc.h)(0x528027A2)
+I (..\Include\s110\ble_hci.h)(0x528027A2)
+I (..\Include\ble\ble_advdata.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\ble\ble_services\ble_tps.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_lls.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_bas.h)(0x52B40800)
+I (..\Include\ble\ble_conn_params.h)(0x52B40802)
+I (..\Include\ble\ble_sensorsim.h)(0x52B40802)
+I (..\Include\app_common\app_timer.h)(0x52B407FE)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (..\Include\ble\ble_bondmngr.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias_c.h)(0x52B40800)
+I (..\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (..\Include\app_common\app_button.h)(0x52B407FE)
+I (..\Include\ble\ble_radio_notification.h)(0x52B40802)
+I (..\Include\ble\ble_flash.h)(0x52B40800)
+I (..\Include\ble\ble_debug_assert_handler.h)(0x52B40802)
+I (..\Include\boards\ak2.h)(0x573AF708)
+I (..\user\oled_096.h)(0x530CAD48)
+I (..\Include\sd_common\softdevice_handler.h)(0x52B40804)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\Include\s110\nrf_sdm.h)(0x528027A2)
+I (..\Include\s110\nrf_error_sdm.h)(0x528027A2)
+I (..\Include\sd_common\ble_stack_handler_types.h)(0x52B40804)
+I (..\Include\sd_common\ant_stack_handler_types.h)(0x52B40804)
+I (..\Include\ble\ble_error_log.h)(0x52B40800)
+F (..\user\timer.c)(0x573B535A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\timer.o --list_dir ".\\list\\" --list --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\user\system.h)(0x573BEC37)
+I (..\Include\simple_uart.h)(0x52B40802)
+I (..\user\ble_apps_uart.h)(0x57485F12)
+I (..\user\ble_nus.h)(0x52B40868)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\user\rtc.h)(0x573AFC72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\s110\nrf_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_error_soc.h)(0x528027A2)
+I (..\Include\s110\ble_hci.h)(0x528027A2)
+I (..\Include\ble\ble_advdata.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\ble\ble_services\ble_tps.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_lls.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_bas.h)(0x52B40800)
+I (..\Include\ble\ble_conn_params.h)(0x52B40802)
+I (..\Include\ble\ble_sensorsim.h)(0x52B40802)
+I (..\Include\app_common\app_timer.h)(0x52B407FE)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (..\Include\ble\ble_bondmngr.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias_c.h)(0x52B40800)
+I (..\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (..\Include\app_common\app_button.h)(0x52B407FE)
+I (..\Include\ble\ble_radio_notification.h)(0x52B40802)
+I (..\Include\ble\ble_flash.h)(0x52B40800)
+I (..\Include\ble\ble_debug_assert_handler.h)(0x52B40802)
+I (..\Include\boards\ak2.h)(0x573AF708)
+F (..\Source\spi_master\spi_master.c)(0x52B407F2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\spi_master.o --list_dir ".\\list\\" --list --omf_browse .\obj\spi_master.crf --depend .\obj\spi_master.d)
+I (..\Include\spi_master.h)(0x52B40800)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\Include\nrf_delay.h)(0x52B40800)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+I (..\Include\common.h)(0x52B40804)
+I (..\user\spi_master_config.h)(0x530A1962)
+I (..\Include\boards/ak2.h)(0x573AF708)
+F (..\user\led.c)(0x5310A7A9)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\led.o --list_dir ".\\list\\" --list --omf_browse .\obj\led.crf --depend .\obj\led.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\simple_uart.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\Include\nrf_delay.h)(0x52B40800)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+I (..\user\system.h)(0x573BEC37)
+I (..\user\ble_apps_uart.h)(0x57485F12)
+I (..\user\ble_nus.h)(0x52B40868)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\user\rtc.h)(0x573AFC72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\s110\nrf_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_error_soc.h)(0x528027A2)
+I (..\Include\s110\ble_hci.h)(0x528027A2)
+I (..\Include\ble\ble_advdata.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\ble\ble_services\ble_tps.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_lls.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_bas.h)(0x52B40800)
+I (..\Include\ble\ble_conn_params.h)(0x52B40802)
+I (..\Include\ble\ble_sensorsim.h)(0x52B40802)
+I (..\Include\app_common\app_timer.h)(0x52B407FE)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (..\Include\ble\ble_bondmngr.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias_c.h)(0x52B40800)
+I (..\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (..\Include\app_common\app_button.h)(0x52B407FE)
+I (..\Include\ble\ble_radio_notification.h)(0x52B40802)
+I (..\Include\ble\ble_flash.h)(0x52B40800)
+I (..\Include\ble\ble_debug_assert_handler.h)(0x52B40802)
+I (..\Include\boards\ak2.h)(0x573AF708)
+I (..\Include\boards.h)(0x52FCD780)
+F (..\user\oled_096.c)(0x53D0A74A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\oled_096.o --list_dir ".\\list\\" --list --omf_browse .\obj\oled_096.crf --depend .\obj\oled_096.d)
+I (..\user\oled_096.h)(0x530CAD48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\user\oledfont.h)(0x5309F631)
+I (..\user\system.h)(0x573BEC37)
+I (..\Include\simple_uart.h)(0x52B40802)
+I (..\user\ble_apps_uart.h)(0x57485F12)
+I (..\user\ble_nus.h)(0x52B40868)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\user\rtc.h)(0x573AFC72)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\s110\nrf_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_error_soc.h)(0x528027A2)
+I (..\Include\s110\ble_hci.h)(0x528027A2)
+I (..\Include\ble\ble_advdata.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\ble\ble_services\ble_tps.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_lls.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_bas.h)(0x52B40800)
+I (..\Include\ble\ble_conn_params.h)(0x52B40802)
+I (..\Include\ble\ble_sensorsim.h)(0x52B40802)
+I (..\Include\app_common\app_timer.h)(0x52B407FE)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (..\Include\ble\ble_bondmngr.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias_c.h)(0x52B40800)
+I (..\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (..\Include\app_common\app_button.h)(0x52B407FE)
+I (..\Include\ble\ble_radio_notification.h)(0x52B40802)
+I (..\Include\ble\ble_flash.h)(0x52B40800)
+I (..\Include\ble\ble_debug_assert_handler.h)(0x52B40802)
+I (..\Include\boards\ak2.h)(0x573AF708)
+I (..\Include\nrf_delay.h)(0x52B40800)
+I (..\Include\common.h)(0x52B40804)
+I (..\user\spi_master_config.h)(0x530A1962)
+I (..\Include\spi_master.h)(0x52B40800)
+F (..\user\key.c)(0x53D0A1F5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\key.o --list_dir ".\\list\\" --list --omf_browse .\obj\key.crf --depend .\obj\key.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\simple_uart.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\Include\nrf_delay.h)(0x52B40800)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+I (..\user\system.h)(0x573BEC37)
+I (..\user\ble_apps_uart.h)(0x57485F12)
+I (..\user\ble_nus.h)(0x52B40868)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\user\rtc.h)(0x573AFC72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\s110\nrf_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_error_soc.h)(0x528027A2)
+I (..\Include\s110\ble_hci.h)(0x528027A2)
+I (..\Include\ble\ble_advdata.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\ble\ble_services\ble_tps.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_lls.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_bas.h)(0x52B40800)
+I (..\Include\ble\ble_conn_params.h)(0x52B40802)
+I (..\Include\ble\ble_sensorsim.h)(0x52B40802)
+I (..\Include\app_common\app_timer.h)(0x52B407FE)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (..\Include\ble\ble_bondmngr.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias_c.h)(0x52B40800)
+I (..\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (..\Include\app_common\app_button.h)(0x52B407FE)
+I (..\Include\ble\ble_radio_notification.h)(0x52B40802)
+I (..\Include\ble\ble_flash.h)(0x52B40800)
+I (..\Include\ble\ble_debug_assert_handler.h)(0x52B40802)
+I (..\Include\boards\ak2.h)(0x573AF708)
+I (..\Include\boards.h)(0x52FCD780)
+F (..\user\uart.c)(0x573BEC37)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\uart.o --list_dir ".\\list\\" --list --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\nrf_delay.h)(0x52B40800)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+I (..\Include\boards.h)(0x52FCD780)
+I (..\Include\boards/ak2.h)(0x573AF708)
+I (..\user\system.h)(0x573BEC37)
+I (..\Include\simple_uart.h)(0x52B40802)
+I (..\user\ble_apps_uart.h)(0x57485F12)
+I (..\user\ble_nus.h)(0x52B40868)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\user\rtc.h)(0x573AFC72)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\s110\nrf_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_error_soc.h)(0x528027A2)
+I (..\Include\s110\ble_hci.h)(0x528027A2)
+I (..\Include\ble\ble_advdata.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\ble\ble_services\ble_tps.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_lls.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_bas.h)(0x52B40800)
+I (..\Include\ble\ble_conn_params.h)(0x52B40802)
+I (..\Include\ble\ble_sensorsim.h)(0x52B40802)
+I (..\Include\app_common\app_timer.h)(0x52B407FE)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (..\Include\ble\ble_bondmngr.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias_c.h)(0x52B40800)
+I (..\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (..\Include\app_common\app_button.h)(0x52B407FE)
+I (..\Include\ble\ble_radio_notification.h)(0x52B40802)
+I (..\Include\ble\ble_flash.h)(0x52B40800)
+I (..\Include\ble\ble_debug_assert_handler.h)(0x52B40802)
+I (..\user\oled_096.h)(0x530CAD48)
+F (..\user\retarget.c)(0x52FE5656)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\retarget.o --list_dir ".\\list\\" --list --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\Include\simple_uart.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+F (..\user\rtc.c)(0x573B4FED)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\rtc.o --list_dir ".\\list\\" --list --omf_browse .\obj\rtc.crf --depend .\obj\rtc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\nrf_delay.h)(0x52B40800)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+I (..\Include\boards.h)(0x52FCD780)
+I (..\Include\boards/ak2.h)(0x573AF708)
+I (..\user\system.h)(0x573BEC37)
+I (..\Include\simple_uart.h)(0x52B40802)
+I (..\user\ble_apps_uart.h)(0x57485F12)
+I (..\user\ble_nus.h)(0x52B40868)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\user\rtc.h)(0x573AFC72)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\s110\nrf_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_error_soc.h)(0x528027A2)
+I (..\Include\s110\ble_hci.h)(0x528027A2)
+I (..\Include\ble\ble_advdata.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\ble\ble_services\ble_tps.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_lls.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_bas.h)(0x52B40800)
+I (..\Include\ble\ble_conn_params.h)(0x52B40802)
+I (..\Include\ble\ble_sensorsim.h)(0x52B40802)
+I (..\Include\app_common\app_timer.h)(0x52B407FE)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (..\Include\ble\ble_bondmngr.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias_c.h)(0x52B40800)
+I (..\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (..\Include\app_common\app_button.h)(0x52B407FE)
+I (..\Include\ble\ble_radio_notification.h)(0x52B40802)
+I (..\Include\ble\ble_flash.h)(0x52B40800)
+I (..\Include\ble\ble_debug_assert_handler.h)(0x52B40802)
+I (..\user\oled_096.h)(0x530CAD48)
+F (..\user\adc_heart_rate.c)(0x57393EA0)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\list\\" -I..\Include -I..\user -I..\Include\app_common -I..\Include\ble -I..\Include\ble\ble_services -I..\Include\s110 -I..\Include\boards -I..\Include\sd_common --c99-I C:\Johnson_project\2016_Project\BLE_Pedometer\Fittless_wearable\firmware_design\git-project\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DSETUPA -DBOARD_AKII -DBLE_STACK_SUPPORT_REQD-o .\obj\adc_heart_rate.o --list_dir ".\\list\\" --list --omf_browse .\obj\adc_heart_rate.crf --depend .\obj\adc_heart_rate.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\Include\nrf.h)(0x52B2542C)
+I (..\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Include\system_nrf51.h)(0x52B2542A)
+I (..\Include\nrf51_bitfields.h)(0x52B2542A)
+I (..\Include\nrf51_deprecated.h)(0x52B2542C)
+I (..\Include\compiler_abstraction.h)(0x52B2542C)
+I (..\Include\nrf_delay.h)(0x52B40800)
+I (..\Include\nrf_gpio.h)(0x52B40800)
+I (..\Include\boards.h)(0x52FCD780)
+I (..\Include\boards/ak2.h)(0x573AF708)
+I (..\user\system.h)(0x573BEC37)
+I (..\Include\simple_uart.h)(0x52B40802)
+I (..\user\ble_apps_uart.h)(0x57485F12)
+I (..\user\ble_nus.h)(0x52B40868)
+I (..\Include\s110\ble.h)(0x528027A2)
+I (..\Include\s110\ble_ranges.h)(0x528027A2)
+I (..\Include\s110\ble_types.h)(0x528027A2)
+I (..\Include\s110\ble_gap.h)(0x528027A2)
+I (..\Include\s110\nrf_svc.h)(0x528027A2)
+I (..\Include\s110\ble_l2cap.h)(0x528027A2)
+I (..\Include\s110\ble_err.h)(0x528027A2)
+I (..\Include\s110\nrf_error.h)(0x528027A2)
+I (..\Include\s110\ble_gatt.h)(0x528027A2)
+I (..\Include\s110\ble_gattc.h)(0x528027A2)
+I (..\Include\s110\ble_gatts.h)(0x528027A2)
+I (..\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (..\Include\app_common\app_util.h)(0x547D8508)
+I (..\Include\app_common\app_error.h)(0x52B407FE)
+I (..\user\rtc.h)(0x573AFC72)
+I (..\Include\nordic_common.h)(0x52B40804)
+I (..\Include\s110\nrf_soc.h)(0x528027A2)
+I (..\Include\s110\nrf_error_soc.h)(0x528027A2)
+I (..\Include\s110\ble_hci.h)(0x528027A2)
+I (..\Include\ble\ble_advdata.h)(0x52B40802)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Include\ble\ble_services\ble_tps.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_lls.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_bas.h)(0x52B40800)
+I (..\Include\ble\ble_conn_params.h)(0x52B40802)
+I (..\Include\ble\ble_sensorsim.h)(0x52B40802)
+I (..\Include\app_common\app_timer.h)(0x52B407FE)
+I (..\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (..\Include\ble\ble_bondmngr.h)(0x52B40800)
+I (..\Include\ble\ble_services\ble_ias_c.h)(0x52B40800)
+I (..\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (..\Include\app_common\app_button.h)(0x52B407FE)
+I (..\Include\ble\ble_radio_notification.h)(0x52B40802)
+I (..\Include\ble\ble_flash.h)(0x52B40800)
+I (..\Include\ble\ble_debug_assert_handler.h)(0x52B40802)
+I (..\user\oled_096.h)(0x530CAD48)

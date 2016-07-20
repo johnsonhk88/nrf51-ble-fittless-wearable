@@ -1,0 +1,33 @@
+--cpu Cortex-M0
+".\obj\system_nrf51.o"
+".\obj\arm_startup_nrf51.o"
+".\obj\ble_srv_common.o"
+".\obj\ble_nus.o"
+".\obj\ble_advdata.o"
+".\obj\ble_conn_params.o"
+".\obj\ble_flash.o"
+".\obj\softdevice_handler.o"
+".\obj\nrf_delay.o"
+".\obj\simple_uart.o"
+".\obj\app_timer.o"
+".\obj\app_button.o"
+".\obj\app_gpiote.o"
+".\obj\main.o"
+".\obj\adc_apps.o"
+".\obj\ble_proximity.o"
+".\obj\ble_apps_uart.o"
+".\obj\timer.o"
+".\obj\spi_master.o"
+".\obj\led.o"
+".\obj\oled_096.o"
+".\obj\key.o"
+".\obj\uart.o"
+".\obj\retarget.o"
+".\obj\rtc.o"
+".\obj\adc_heart_rate.o"
+--library_type=microlib
+--feedback ".\obj\ak2_v1_1_0.fed" --feedback_image=none
+--strict --scatter ".\obj\ak2_v1_1_0.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\list\ak2_v1_1_0.map" -o .\obj\ak2_v1_1_0.axf
